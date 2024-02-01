@@ -18,7 +18,7 @@ export const ToDoList = () => {
           key={todo.id}
           className={'flex space-x-2 border-b-2 p-2 items-center'}
         >
-          {/* biome-ignore lint/a11y/useKeyWithClickEvents: <explanation> */}
+          {/* biome-ignore lint/a11y/useKeyWithClickEvents: necessary processing */}
           <li
             onClick={() => push(`/todo/view/${todo.id}`)}
             className={'cursor-pointer flex-1'}
